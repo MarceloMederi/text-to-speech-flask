@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversão de Texto para Fala</title>
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='favicon.png') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Conversão de Texto para Fala</h1>
+        <form id="text-form" action="/convert" method="POST">
+            <label for="text">Digite o texto:</label><br>
+            <textarea id="text" name="text" rows="4" cols="50" placeholder="Escreva seu texto aqui"></textarea><br><br>
+            <input type="submit" value="Converter para Áudio">
+            <input type="button" value="Limpar" id="clear-button">
+        </form>
+        
+        <!-- Ícone de carregamento (spinner) -->
+        <div id="loading" class="hidden">
+            <img src="{{ url_for('static', filename='spinner.gif') }}" alt="Carregando...">
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
