@@ -1,20 +1,20 @@
-Conversão de Texto para Fala
+# Conversão de Texto para Fala
 
 Este é um projeto simples em Flask que permite converter texto em fala usando a biblioteca Google Text-to-Speech (gTTS). O aplicativo possui uma interface web onde os usuários podem inserir texto e baixar o áudio gerado em formato MP3.
 
-Funcionalidades
+# Funcionalidades
 
 - Conversão de Texto para Fala: Os usuários podem digitar texto e convertê-lo em áudio em português.
 - Download de Áudio: O áudio gerado pode ser baixado diretamente do aplicativo.
 - Interface Responsiva: A interface é amigável e responsiva, funcionando bem em dispositivos móveis.
 
-Tecnologias Usadas
+# Tecnologias Usadas
 
 - Flask: Framework web para Python.
 - gTTS: Biblioteca para conversão de texto em fala.
 - HTML/CSS/JavaScript: Para construção da interface web.
 
-Estrutura do Projeto
+# Estrutura do Projeto
 
 .
 ├── App.py             Código principal do aplicativo Flask
@@ -27,41 +27,41 @@ Estrutura do Projeto
 └── templates/         Diretório para templates HTML
     └── index.html     Template HTML principal
 
-Pré-requisitos:
+# Pré-requisitos:
 Antes de executar o projeto, certifique-se de que você tenha os seguintes itens instalados:
 
-Python 3.x
-pip (gerenciador de pacotes Python)
+**Python 3.x**
+**pip (gerenciador de pacotes Python)**
 
-Instalação:
+# Instalação:
 Clone o repositório:
 git clone https://github.com/seuusuario/conversao-texto-para-fala.git
 cd conversao-texto-para-fala
 
-Crie e ative um ambiente virtual:
+# Crie e ative um ambiente virtual:
 python -m venv venv
 source venv/bin/activate  Para Linux ou macOS
 venv\Scripts\activate     Para Windows
 
-Instale as dependências:
+# Instale as dependências:
 pip install flask gtts
 
-Executando o Aplicativo
+# Executando o Aplicativo
 Para iniciar o servidor, execute o seguinte comando:
 python App.py
-O aplicativo estará disponível em http://127.0.0.1:5000. Abra essa URL em um navegador para acessar a interface.
+*O aplicativo estará disponível em http://127.0.0.1:5000. Abra essa URL em um navegador para acessar a interface.*
 
-Como Usar
+# Como Usar
 
 Na página inicial, insira o texto que deseja converter em fala no campo de texto.
 Clique no botão "Converter para Áudio" para iniciar a conversão.
 Após alguns instantes, o arquivo MP3 será baixado automaticamente.
 
-Contribuição
+# Contribuição
 Contribuições são bem-vindas! Se você encontrar um bug ou tiver uma sugestão de melhoria, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-Licença
+# Licença
 Este projeto é licenciado sob a MIT License.
 
-Agradecimentos
+# Agradecimentos
 Agradecimentos especiais ao Google pela biblioteca gTTS que torna este projeto possível.
