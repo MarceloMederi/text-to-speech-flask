@@ -15,7 +15,7 @@ Este é um projeto simples em Flask que permite converter texto em fala usando a
 - HTML/CSS/JavaScript: Para construção da interface web.
 
 # Estrutura do Projeto
-
+```plaintext
 .
 ├── App.py             Código principal do aplicativo Flask
 ├── static/            Diretório para arquivos estáticos (CSS, imagens, etc.)
@@ -26,6 +26,7 @@ Este é um projeto simples em Flask que permite converter texto em fala usando a
 │
 └── templates/         Diretório para templates HTML
     └── index.html     Template HTML principal
+```
 
 # Pré-requisitos:
 Antes de executar o projeto, certifique-se de que você tenha os seguintes itens instalados:
