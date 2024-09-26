@@ -37,9 +37,9 @@ cd text-to-speech-flask
 
 # Crie e ative um ambiente virtual:
 ```plaintext
-- python -m venv venv.
-- source venv/bin/activate. **Para Linux ou macOS**.
-- venv\Scripts\activate.    **Para Windows**.
+- python -m venv venv
+- source venv/bin/activate. Para Linux ou macOS
+- venv\Scripts\activate.    Para Windows
 ```
 
 # Instale as dependências:
