@@ -1,15 +1,12 @@
 # Conversão de Texto para Fala
-
 Este é um projeto simples em Flask que permite converter texto em fala usando a biblioteca Google Text-to-Speech (gTTS). O aplicativo possui uma interface web onde os usuários podem inserir texto e baixar o áudio gerado em formato MP3.
 
 # Funcionalidades
-
 - Conversão de Texto para Fala: Os usuários podem digitar texto e convertê-lo em áudio em português.
 - Download de Áudio: O áudio gerado pode ser baixado diretamente do aplicativo.
 - Interface Responsiva: A interface é amigável e responsiva, funcionando bem em dispositivos móveis.
 
 # Tecnologias Usadas
-
 - Flask: Framework web para Python.
 - gTTS: Biblioteca para conversão de texto em fala.
 - HTML/CSS/JavaScript: Para construção da interface web.
@@ -30,9 +27,8 @@ Este é um projeto simples em Flask que permite converter texto em fala usando a
 
 # Pré-requisitos:
 Antes de executar o projeto, certifique-se de que você tenha os seguintes itens instalados:
-
-**Python 3.x**.
-**pip (gerenciador de pacotes Python)**.
+- Python 3.x.  
+- pip (gerenciador de pacotes Python).  
 
 # Instalação:
 Clone o repositório:
@@ -40,9 +36,9 @@ git clone https://github.com/MarceloMederi/text-to-speech-flask
 cd text-to-speech-flask  
 
 # Crie e ative um ambiente virtual:
-python -m venv venv  
-source venv/bin/activate  **Para Linux ou macOS**  .
-venv\Scripts\activate     **Para Windows**  .
+python -m venv venv  .
+source venv/bin/activate  **Para Linux ou macOS**.
+venv\Scripts\activate     **Para Windows**.
 
 # Instale as dependências:
 pip install flask gtts
@@ -51,7 +47,7 @@ pip install flask gtts
 Para iniciar o servidor, execute o seguinte comando:  
 **python App.py**
 
-*O aplicativo estará disponível em http://127.0.0.1:5000.*  
+*O aplicativo estará disponível em http://127.0.0.1:5000*  
 Abra essa URL em um navegador para acessar a interface.
 
 # Como Usar
