@@ -31,29 +31,30 @@ Este é um projeto simples em Flask que permite converter texto em fala usando a
 # Pré-requisitos:
 Antes de executar o projeto, certifique-se de que você tenha os seguintes itens instalados:
 
-**Python 3.x**
-**pip (gerenciador de pacotes Python)**
+**Python 3.x**.
+**pip (gerenciador de pacotes Python)**.
 
 # Instalação:
 Clone o repositório:
-git clone https://github.com/seuusuario/conversao-texto-para-fala.git
-cd conversao-texto-para-fala
+git clone https://github.com/MarceloMederi/text-to-speech-flask  
+cd text-to-speech-flask  
 
 # Crie e ative um ambiente virtual:
-python -m venv venv
-source venv/bin/activate  Para Linux ou macOS
-venv\Scripts\activate     Para Windows
+python -m venv venv  
+source venv/bin/activate  **Para Linux ou macOS**  .
+venv\Scripts\activate     **Para Windows**  .
 
 # Instale as dependências:
 pip install flask gtts
 
 # Executando o Aplicativo
-Para iniciar o servidor, execute o seguinte comando:
-python App.py
-*O aplicativo estará disponível em http://127.0.0.1:5000. Abra essa URL em um navegador para acessar a interface.*
+Para iniciar o servidor, execute o seguinte comando:  
+**python App.py**
+
+*O aplicativo estará disponível em http://127.0.0.1:5000.*  
+Abra essa URL em um navegador para acessar a interface.
 
 # Como Usar
-
 Na página inicial, insira o texto que deseja converter em fala no campo de texto.
 Clique no botão "Converter para Áudio" para iniciar a conversão.
 Após alguns instantes, o arquivo MP3 será baixado automaticamente.
