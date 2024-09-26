@@ -36,9 +36,11 @@ git clone https://github.com/MarceloMederi/text-to-speech-flask
 cd text-to-speech-flask  
 
 # Crie e ative um ambiente virtual:
-python -m venv venv  .
-source venv/bin/activate  **Para Linux ou macOS**.
-venv\Scripts\activate     **Para Windows**.
+```plaintext
+- python -m venv venv.
+- source venv/bin/activate. **Para Linux ou macOS**.
+- venv\Scripts\activate.    **Para Windows**.
+```
 
 # Instale as dependências:
 pip install flask gtts
